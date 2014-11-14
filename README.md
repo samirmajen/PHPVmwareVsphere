@@ -21,7 +21,7 @@ Usage:
 
 require("Vsphere_Class.php");
 
-$vsphere = new Vsphere("<vcenter ip address>", "<vcenter username>", "<vcenter password>");
+$vsphere = new Vsphere("ip address", "username", "password");
 
 $vsphere->setEsxHosts(array("esxi1.local", "esxi2.local"));
 
